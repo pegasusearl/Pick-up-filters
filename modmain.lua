@@ -32,9 +32,8 @@ whitelist_enabled
 local whitelist = {}
 local blacklist = {}
 
-local whitelist_file = "whitelist.txt"--"..\\mods\\Secret project\\Client_Whitelist.txt"
-local blacklist_file = "blacklist.txt"--"..\\mods\\Secret project\\Client_Blacklist.txt"
---local settings_file =  "..\\mods\\Secret project\\Client_Settings.txt"
+local whitelist_file = "..\\mods\\workshop-1603516353\\settings\\whitelist.txt"
+local blacklist_file = "..\\mods\\workshop-1603516353\\settings\\blacklist.txt"
 
 local flower_pickup = GetModConfigData("flower_pickup")
 local meat_pickup = GetModConfigData("meat_pickup")
@@ -315,6 +314,8 @@ local function GetPickupAction(self, tool, target)
         return ACTIONS.BRUSH
     elseif self.inst.components.revivablecorpse ~= nil and target:HasTag("corpse") and ValidateCorpseReviver(target, self.inst) then
         return ACTIONS.REVIVE_CORPSE
+	elseif target:HasTag("tendable_farmplant") then
+		return ACTIONS.INTERACT_WITH
     end
     --no action found
 end
@@ -516,6 +517,7 @@ function PlayerController:GetActionButtonAction(force_target)
 			"saddled",
 			"brushable",
 			"tapped_harvestable",
+			"tendable_farmplant",
 		}
 		if tool ~= nil then
 			for k, v in pairs(GLOBAL.TOOLACTIONS) do

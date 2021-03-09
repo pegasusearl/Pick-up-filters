@@ -26,29 +26,32 @@ Available keys are F1 to F12, and A to Z. For any of theese ***you can still pic
 
 
 ## Usages
-Switch between items in the blacklist and whitelist while collecting your loot
-![](https://i.imgur.com/mDeoSYf.gif)
-(first nitre and flint are added to blacklist so they can't be picked, then they are removed so they can be picked again and flint is added to whitelist so it will be picked up first)
+
+**Switch between items in the blacklist and whitelist while collecting your loot**  
+*First nitre and flint are added to blacklist so they can't be picked, then they are removed so they can be picked again and flint is added to whitelist so it will be picked up first*  
+![](https://i.imgur.com/mDeoSYf.gif)   
 
 
-"Pick up first" near beehives
-![](https://i.imgur.com/T1v9dEr.gif)
-(flowers picking is disabled and picking items from ground will come before harvesting bee boxes
+
+**"Pick up first" near beehives**  
+*Flowers picking is disabled and picking items from ground will come before harvesting bee boxes*
+![](https://i.imgur.com/T1v9dEr.gif)  	
 
 
-"No meat" around bunnymans
-![](https://i.imgur.com/Pc8O8BK.gif)
-(ignore the meat on the ground as it never existed. The same can be achieved by adding meat to the blacklist)
+
+**"No meat" around bunnymans**  
+*Ignore the meat on the ground as it never existed. The same can be achieved by adding meat to the blacklist*  
+![](https://i.imgur.com/Pc8O8BK.gif)  
 
 
-"Meat first" around spiders
-![](https://i.imgur.com/rK36rzk.gif)
-(reverse of the previous case)
+**"Meat first" around spiders**  
+*Reverse of the previous case*  
+![](https://i.imgur.com/rK36rzk.gif)  
 
 
-"Pick up last" when chopping trees
-![](https://i.imgur.com/niLL3K8.gif)
-(prioritize actions like chopping, digging and harvesting before picking items)
+**"Pick up last" when chopping trees**  
+*Prioritize actions like chopping, digging and harvesting before picking items*
+![](https://i.imgur.com/niLL3K8.gif)  
 
 and many more!
 

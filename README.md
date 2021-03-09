@@ -21,8 +21,8 @@
 ## Key bindings
 For any option you can set a key bind to cycle through them in game, without changing it in main menu. Additionally you can (actually you need to if you want to use it) set a key in the mod options and then while in game, point at an item on ground and press the chosen key to add the item to a blacklist / whitelist. The lists are saved on your computer, so you can set them once in game, and use them after re-logs or on a different server (can be toogled off in the options).
 
-Available keys are F1 to F12, and A to Z. For any of theese ***you can still pick it up with your mouse.*** The mod only disables automatic picking with action key (spacebar by default)
-![](https://i.imgur.com/phNAUcn.gif)
+Available keys are F1 to F12, and A to Z. For any of theese ***you can still pick it up with your mouse.*** The mod only disables automatic picking with action key (spacebar by default)  
+![](https://i.imgur.com/phNAUcn.gif)  
 
 
 ## Usages

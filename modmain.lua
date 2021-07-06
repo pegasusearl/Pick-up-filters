@@ -32,8 +32,9 @@ whitelist_enabled
 local whitelist = {}
 local blacklist = {}
 
-local whitelist_file = "..\\mods\\workshop-1603516353\\settings\\whitelist.txt"
-local blacklist_file = "..\\mods\\workshop-1603516353\\settings\\blacklist.txt"
+--relative path to put those in mod folder doesn't work, leaving the puf_ files
+local whitelist_file =  "puf_whitelist.txt"--"..\\mods\\workshop-1603516353\\settings\\whitelist.txt"
+local blacklist_file = "puf_blacklist.txt"--"..\\mods\\workshop-1603516353\\settings\\blacklist.txt"
 
 local flower_pickup = GetModConfigData("flower_pickup")
 local meat_pickup = GetModConfigData("meat_pickup")

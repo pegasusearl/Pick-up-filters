@@ -1,7 +1,7 @@
 name = "Pick-up Filters"
 
 author = "Skrzelik"
-version = "2.2"
+version = "2.2.1"
 
 forumthread = ""
 description = "Lets you disable picking flowers with spacebar, prioritize chopping trees over picking wood and vice versa, add any item to blacklist/whitelist"

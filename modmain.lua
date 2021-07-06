@@ -531,14 +531,7 @@ function PlayerController:GetActionButtonAction(force_target)
 		end
 		local x, y, z = self.inst.Transform:GetWorldPosition()
 		local ents = TheSim:FindEntities(x, y, z, self.directwalking and 3 or 6, nil, PICKUP_TARGET_EXCLUDE_TAGS, pickup_tags)
-			---[[debug info
-			print("--------------------")
-			print("ents table: ")
-			for i,v in ipairs(ents) do
-				print(tostring(v) .. ", is nill: " .. tostring(v == nil) .. ", is prefab nil: " .. tostring(v.prefab == nil))
-			end
-			print("--------------------")
-			---]]
+
 		--if v ~= self.inst and v.entity:IsVisible() and GLOBAL.CanEntitySeeTarget(self.inst, v) then
 		local target, action = GetTargetAction(self, tool, ents)
 		--print("result from TargetAction:")

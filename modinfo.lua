@@ -88,6 +88,28 @@ configuration_options =
         },
         default = 0,
     },
+    {
+        name = "winter_food_pickup",
+        label = "winter feast Foods",
+        hover = "Pick with spacebar?",
+        options =
+        {
+			{description = "Pick", data = 1, hover = "Pick normally."},
+            {description = "Don't pick", data = 0, hover = "Do not pick them."},
+        },
+        default = 0,
+    },
+    {
+        name = "winter_ornament_pickup",
+        label = "winter feast Ornaments",
+        hover = "Pick with spacebar?",
+        options =
+        {
+			{description = "Pick", data = 1, hover = "Pick normally."},
+            {description = "Don't pick", data = 0, hover = "Do not pick them."},
+        },
+        default = 1,
+    },
 	{
         name = "pickup_order",
         label = "Pickup Order",
@@ -109,6 +131,17 @@ configuration_options =
 			{description = "Default", data = 1, hover = ""},
             {description = "Meat first", data = 2, hover = "Picks meat before picking everything else"},
 			{description = "No meat", data = 0, hover = "Can no longer pick meat with spacebar (needs to point and click)"},
+        },
+        default = 1,
+    },
+    {
+        name = "lantern_last",
+        label = "Pick lantern last",
+        hover = "Not implemented yet",
+        options =
+        {
+			{description = "Disabled", data = 0, hover = "Default settings"},
+            {description = "Enabled", data = 1, hover = "Lantern will be picked after later."},
         },
         default = 1,
     },

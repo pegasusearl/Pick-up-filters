@@ -334,8 +334,6 @@ local function choose_pickup_filter(self, ents)
 				--do nothing
 			elseif (whitelist_enabled == 1 and is_in_list(v.prefab, whitelist)) or (meat_pickup == 2 and is_in_list(v.prefab, meats)) then
 				return v
-			elseif (lantern_last == 1 and v.prefab ~= "lantern") then
-				return v
 			end
 		end
 	end

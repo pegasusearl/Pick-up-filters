@@ -1,4 +1,4 @@
-name = "Pick-up Filters"
+name = "Pick-up Filters (Alternate)"
 
 author = "Skrzelik"
 version = "2.2.1"

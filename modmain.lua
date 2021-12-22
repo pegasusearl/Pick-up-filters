@@ -54,6 +54,8 @@ local flowers =
 
 local meats = 
 {
+	"manrabbit_tail",
+	"pigskin",
 	"meat",
 	"cookedmeat",
 	"meat_dried",
